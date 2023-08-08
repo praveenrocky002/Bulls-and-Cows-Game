@@ -27,7 +27,8 @@ class Rules extends Component {
       scrollOpen: false,
     }
   }
-  __handleRulesView(){
+  __handleRulesView(e){
+    e.preventDefault();
     this.setState(prevState => {
       return {
         scrollOpen: !prevState.scrollOpen,
