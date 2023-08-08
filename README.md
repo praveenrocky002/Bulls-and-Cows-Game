@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Demo
 -
-The app can be seen in action [here]([https://bulls-cows-game.surge.sh](https://main--stirring-pixie-4b1682.netlify.app/)).
+The app can be seen in action [here](https://main--stirring-pixie-4b1682.netlify.app/).
 
 **Run Locally**
 -
