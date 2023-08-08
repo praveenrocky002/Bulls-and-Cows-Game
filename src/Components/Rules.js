@@ -19,6 +19,10 @@ const RulesLink = styled.a`
   color: white;
   padding: 1em;
   display: block;
+  cursor:pointer;
+  display:inline-block;
+  text-decoration:underline;
+  marrgin-top:5px;
 `
 class Rules extends Component {
   constructor(){
@@ -39,7 +43,7 @@ class Rules extends Component {
     const { scrollOpen } = this.state;
     return (
       <div>
-        <RulesLink href="javascript:void(0)" onClick={this.__handleRulesView.bind(this)}>{ !scrollOpen ? `HOW TO PLAY` : `LET'S PLAY` }</RulesLink>
+        <RulesLink onClick={this.__handleRulesView.bind(this)}>{ !scrollOpen ? `HOW TO PLAY` : `LET'S PLAY` }</RulesLink>
         {
           scrollOpen ?
           <RulesWrapper>
